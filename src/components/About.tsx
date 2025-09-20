@@ -54,27 +54,35 @@ export const About: FC = () => {
           About Me
         </motion.h2>
 
-        {/* Education Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="mb-12"
-        >
-          <h3 className="text-2xl font-bold mb-4 text-secondary">
-            Education
-          </h3>
-          <div className="p-6 rounded-lg bg-background/50 backdrop-blur-sm">
-            <h4 className="text-xl font-semibold">Bachelor's in Computer Engineering</h4>
-            <p className="text-lg">NUST, Rawalpindi</p>
-            <p className="mt-2">
-              <span className="font-medium">Graduated:</span> 2025
-            </p>
-            <p className="mt-1">
-              <span className="font-medium">CGPA:</span> 3.6
-            </p>
-          </div>
-        </motion.div>
+       <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5, delay: 0.2 }}
+  className="mb-12"
+>
+  <h3 className="text-2xl font-bold mb-4 text-secondary">
+    Education
+  </h3>
+
+  {/* Grid for multiple education cards */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {/* Education 1 */}
+    <div className="p-6 rounded-lg bg-background/50 backdrop-blur-sm">
+      <h4 className="text-xl font-semibold">Bachelor's in Computer Engineering</h4>
+      <p className="text-lg">NUST, Rawalpindi</p>
+      <p className="mt-2"><span className="font-medium">Graduated:</span> 2025</p>
+      <p className="mt-1"><span className="font-medium">CGPA:</span> 3.6</p>
+    </div>
+
+    {/* Education 2 */}
+    <div className="p-6 rounded-lg bg-background/50 backdrop-blur-sm">
+      <h4 className="text-xl font-semibold">High School (Pre-Engineering)</h4>
+      <p className="text-lg">APS Westridge III, Rawalpindi</p>
+      <p className="mt-2"><span className="font-medium">Graduated:</span> 2021</p>
+      <p className="mt-1"><span className="font-medium">Marks:</span> 98.7%</p>
+    </div>
+  </div>
+</motion.div>
 
         {/* Skills Section */}
         <motion.div
