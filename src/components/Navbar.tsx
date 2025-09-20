@@ -30,7 +30,7 @@ export function Navbar() {
     animate={{ color: ["#ec4899", "yellow", "#ec4899"] }}
     transition={{ duration: 1, repeat: Infinity }}
   >
-    . 
+    .{" "} 
   </motion.span>
   <motion.span
     animate={{ color: ["#ec4899", "yellow", "#ec4899"] }}
