@@ -4,11 +4,18 @@ import { Project } from '../types';
 
 const projects: Project[] = [
   {
-    title: "SkinSage – AI-Based Skin Analysis",
+    title: "SkinSage: AI-Based Skin Analysis",
     description: "An Android application that scans the face to provide insights on skin health, estimated age, facial symmetry, and personalized skincare recommendations.",
     technologies: ["Flutter", "Python", "OpenCV", "Machine Learning"],
     link: "https://github.com/yourusername/skinsage"
   },
+  {
+    title: "George Packers & Movers Website",
+    description: "A responsive website for a moving company, featuring service listings, customer testimonials, and a contact form.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+    link: "https://github.com/yourusername/George-Packers-Movers"
+  },
+  
   {
     title: "Fitness Blog App",
     description: "A comprehensive fitness blog application with authentication and CRUD operations. Built with MERN stack.",
@@ -19,7 +26,7 @@ const projects: Project[] = [
     title: "Autonomous Threat Detection in Luggage",
     description: "Classified luggage images as safe or containing threats (e.g., guns, knives) and segmented detected threat items using image processing techniques.",
     technologies: ["Python", "OpenCV", "Machine Learning"],
-    link: "https://github.com/yourusername/giki-mess"
+    link: "https://github.com/yourusername/threat-detection-luggage"
   },
   {
     title: "ECG Signal Filtering and Noise Suppression Using IIR Filters",
