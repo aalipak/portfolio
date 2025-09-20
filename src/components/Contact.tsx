@@ -13,7 +13,7 @@ export const Contact: FC = () => {
     {
       platform: 'LinkedIn',
       icon: FaLinkedin,
-      link: 'https://linkedin.com/in/yourusername',
+      link: 'https://www.linkedin.com/in/aamna-ali-b7b128382/',
     },
     {
       platform: 'Email',
