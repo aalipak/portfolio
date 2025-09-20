@@ -8,77 +8,77 @@ const projects: Project[] = [
     description: "An Android application that scans the face to provide insights on skin health, estimated age, facial symmetry, and personalized skincare recommendations.",
     technologies: ["Flutter", "Python", "OpenCV", "Machine Learning"],
     link: "https://github.com/yourusername/skinsage",
-    image: "src/assets/skinsage.png"
+    image: "portfolio/src/assets/skinsage.png"
   },
   {
     title: "George Packers & Movers Website",
     description: "A responsive website for a moving company, featuring service listings, customer testimonials, and a contact form.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase"],
     link: "https://github.com/yourusername/George-Packers-Movers",
-    image: "src/assets/george.png"
+    image: "portfolio/src/assets/george.png"
   },
   {
     title: "FitPro: Fitness Blog App",
     description: "A comprehensive fitness blog application with authentication and CRUD operations. Built with MERN stack.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase"],
     link: "https://github.com/yourusername/fitpro",
-    image: "src/assets/fitpro.png"
+    image: "portfolio/src/assets/fitpro.png"
   },
   {
     title: "Portfolio Website",
     description: "A personal portfolio website to showcase projects, skills, and experience.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     link: "https://github.com/yourusername/fitness-blog",
-    image: "src/assets/portfolio.jpg"
+    image: "portfolio/src/assets/portfolio.jpg"
   },
   {
     title: "Autonomous Threat Detection in Luggage",
     description: "Classified luggage images as safe or containing threats (e.g., guns, knives) and segmented detected threat items using image processing techniques.",
     technologies: ["Python", "OpenCV", "Machine Learning"],
     link: "https://github.com/yourusername/threat-detection-luggage",
-    image: "src/assets/threat.png"
+    image: "portfolio/src/assets/threat.png"
   },
   {
     title: "ECG Signal Filtering and Noise Suppression Using IIR Filters",
     description: "Designed IIR filters to reduce baseline wander and power line interference while preserving ECG signal integrity.",
     technologies: ["MATLAB", "Signal Processing"],
     link: "https://github.com/yourusername/ecg-signal-filtering", 
-    image: "src/assets/ecg.png"
+    image: "portfolio/src/assets/ecg.png"
   },
   {
     title: "Pipelined Multicycle MIPS Processor",
     description: "Developed and implemented a 16-bit pipelined multicycle MIPS processor on an FPGA development board.",
     technologies: ["Verilog", "Xilinx", "FPGA"],
     link: "https://github.com/yourusername/mips-processor", 
-    image: "src/assets/fpga.png"
+    image: "portfolio/src/assets/fpga.png"
   },
   {
     title: "Finding the Shortest Path",
     description: "Built a GUI-based model that constructs graphs between nodes and computes the shortest path between selected points.",
     technologies: ["C++", "Graph Theory", "GUI Framework"],
     link: "https://github.com/yourusername/shortest-path", 
-    image: "src/assets/short.png"
+    image: "portfolio/src/assets/short.png"
   },
   {
     title: "Hybrid Filesharing Model in Linux",
     description: "Created a multi-client file-sharing system running on Ubuntu, handling concurrent client requests efficiently.",
     technologies: ["C/C++", "Linux Sockets", "Multi-threading"],
     link: "https://github.com/yourusername/linux-filesharing",
-    image: "src/assets/file.png"
+    image: "portfolio/src/assets/file.png"
   },
   {
     title: "Plant-Growth Simulation System",
     description: "Developed a desktop application simulating plant growth over time, with an interactive interface for input and visualization.",
     technologies: ["Java", "GUI Framework"],
     link: "https://github.com/yourusername/plant-growth-simulation",
-    image: "src/assets/plant.png"
+    image: "portfolio/src/assets/plant.png"
   },
   {
     title: "Serial/Parallel Matrix Multiplier (n x n)",
     description: "Developed and implemented a matrix multiplier on FPGA, inputs entered by user at run time, and results displayed on FPGA.",
     technologies: ["Verilog", "Xilinx", "FPGA"],
     link: "https://github.com/yourusername/matrix-multiplier",
-    image: "src/assets/matrix.png"
+    image: "portfolio/src/assets/matrix.png"
   }
 ];
 
