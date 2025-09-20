@@ -22,7 +22,25 @@ export function Navbar() {
             <span className="text-2xl font-bold text-primary hover:text-secondary">
               theAali Touch 
             </span>
-            <span className="text-2xl font-bold text-secondary hover:text-primary"> ₍^. .^₎ </span>
+       
+
+<span className="text-2xl font-bold text-secondary hover:text-primary">
+  ₍^
+  <motion.span
+    animate={{ color: ["#ec4899", "yellow", "#ec4899"] }}
+    transition={{ duration: 1, repeat: Infinity }}
+  >
+    .
+  </motion.span>
+  <motion.span
+    animate={{ color: ["#ec4899", "yellow", "#ec4899"] }}
+    transition={{ duration: 1, repeat: Infinity, delay: 0.2 }}
+  >
+    .
+  </motion.span>
+  ^₎
+</span>
+
           </motion.div>
           
           <div className="hidden md:flex space-x-8">

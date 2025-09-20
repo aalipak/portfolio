@@ -101,7 +101,7 @@ export const About: FC = () => {
                   {skillGroup.items.map((skill) => (
                     <span
                       key={skill}
-                      className="px-3 py-1 rounded-full text-sm bg-primary/20 text-primary border border-gray-700"
+                      className="px-3 py-1 rounded-full text-sm bg-primary/20  text-yellow-300  border border-gray-700"
                     >
                       {skill}
                     </span>
