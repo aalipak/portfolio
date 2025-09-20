@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen font-sans antialiased;
+  }
+}
+
+@layer components {
+  body {
+    @apply text-black;
+    background: transparent;
+  }
+
+  .gradient-animate {
+    @apply bg-gradient-to-r from-primary-light via-secondary-light to-primary-dark bg-[length:400%_400%] animate-gradient;
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
