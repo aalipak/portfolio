@@ -12,7 +12,7 @@ export function Hero() {
           className="text-5xl md:text-7xl font-bold mb-6 text-primary"
         >
           Hi, I'm Aamna{' '}
-          <span className="text-pink-500">Zahra</span> Ali
+          <span className="text-pink-500">Ali</span> 
         </motion.h1>
         
         <motion.p
