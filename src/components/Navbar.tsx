@@ -19,9 +19,8 @@ export function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <img src="/src/assets/portfolio.jpg" alt="Logo" className="w-8 h-8 rounded-full" />
             <span className="text-2xl font-bold text-primary hover:text-secondary">
-              theAali touch
+              theAali Touch
             </span>
           </motion.div>
           
