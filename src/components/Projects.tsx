@@ -121,7 +121,7 @@ export function Projects() {
               <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded mb-4" />
               {project.link && (
                 <motion.a
-                  href={project.link}
+                  // href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 rounded-full  text-white text-sm font-semibold bg-primary  hover:bg-secondary"
