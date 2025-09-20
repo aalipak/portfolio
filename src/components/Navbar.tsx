@@ -20,8 +20,9 @@ export function Navbar() {
             whileTap={{ scale: 0.95 }}
           >
             <span className="text-2xl font-bold text-primary hover:text-secondary">
-              theAali Touch
+              theAali Touch 
             </span>
+            <span className="text-2xl font-bold text-secondary hover:text-primary"> ₍^. .^₎ </span>
           </motion.div>
           
           <div className="hidden md:flex space-x-8">
