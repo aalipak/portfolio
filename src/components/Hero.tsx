@@ -5,15 +5,50 @@ export function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-16">
       <div className="text-center">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-5xl md:text-7xl font-bold mb-6 text-primary"
-        >
-          Hi, I'm Aamna{' '}
-          <span className="text-pink-500">Ali</span> 
-        </motion.h1>
+  <motion.h1
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5 }}
+  className="text-5xl md:text-7xl font-bold mb-6 text-primary flex justify-center items-center"
+>
+  Hi, I'm{' '}
+  <span className="ml-2 flex">
+  
+    <span className="flex">
+      <motion.span
+        initial={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="text-pink-500"
+      >
+        A
+      </motion.span>
+
+      <motion.span
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5, duration: 0.6 }}
+        className="text-purple-500 ml-1"
+      >
+        amna
+      </motion.span>
+    </span>
+
+ 
+    <motion.span
+      initial={{ x: -190 }}
+      animate={{ x: 10}} 
+      transition={{ delay: 0.5, duration: 0.6, ease: "easeInOut" }}
+      className="text-pink-500 ml-2"
+    >
+      Ali
+    </motion.span>
+  </span>
+</motion.h1>
+
+
+
+
         
         <motion.p
           initial={{ opacity: 0, y: 20 }}
