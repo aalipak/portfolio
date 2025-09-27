@@ -7,7 +7,7 @@ const projects: Project[] = [
     title: "SkinSage: AI-Based Skin Analysis",
     description: "An Android application that scans the face to provide insights on skin health, estimated age, facial symmetry, and personalized skincare recommendations.",
     technologies: ["Flutter", "Python", "OpenCV", "Machine Learning"],
-    link: "https://github.com/yourusername/skinsage",
+    link: "https://github.com/aalipak/skinsage",
     image: "/skinsage.png"
   },
   {
@@ -17,19 +17,20 @@ const projects: Project[] = [
     link: "https://github.com/aalipak/george-packers-and-movers",
     image: "/george.png"
   },
-  {
-    title: "FitPro: Fitness Blog App",
-    description: "A comprehensive fitness blog application with authentication and CRUD operations. Built with MERN stack.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase"],
-    link: "https://github.com/yourusername/fitpro",
-    image: "/fitpro.png"
-  },
+  
   {
     title: "Portfolio Website",
     description: "A personal portfolio website to showcase projects, skills, and experience.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     link: "https://github.com/aalipak/portfolio ",
     image: "portfolio.jpg"
+  },
+  {
+    title: "FitPro: Fitness Blog App",
+    description: "A comprehensive fitness blog application with authentication and CRUD operations. Built with MERN stack.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+    link: "https://github.com/yourusername/fitpro",
+    image: "/fitpro.png"
   },
   {
     title: "Autonomous Threat Detection in Luggage",
@@ -121,7 +122,7 @@ export function Projects() {
               <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded mb-4" />
               {project.link && (
                 <motion.a
-                  // href={project.link}
+                  href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 rounded-full  text-white text-sm font-semibold bg-primary  hover:bg-secondary"
