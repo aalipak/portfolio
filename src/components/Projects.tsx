@@ -14,7 +14,7 @@ const projects: Project[] = [
     title: "George Packers & Movers Website",
     description: "A responsive website for a moving company, featuring service listings, customer testimonials, and a contact form.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase"],
-    link: "https://github.com/yourusername/George-Packers-Movers",
+    link: "https://github.com/aalipak/george-packers-and-movers",
     image: "/george.png"
   },
   {
@@ -28,7 +28,7 @@ const projects: Project[] = [
     title: "Portfolio Website",
     description: "A personal portfolio website to showcase projects, skills, and experience.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "https://github.com/yourusername/fitness-blog",
+    link: "https://github.com/aalipak/portfolio ",
     image: "portfolio.jpg"
   },
   {
