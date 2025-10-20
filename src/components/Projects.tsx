@@ -17,7 +17,7 @@ const projects: Project[] = [
     link: "https://github.com/aalipak/george-packers-and-movers",
     image: "/george.png"
   },
-  //adding new project for vercel portfolio
+
   {
     title: "Portfolio Website",
     description: "A personal portfolio website to showcase projects, skills, and experience.",
