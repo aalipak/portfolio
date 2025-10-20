@@ -33,6 +33,20 @@ const projects: Project[] = [
     image: "/fitpro.png"
   },
   {
+    title: "Cart Corner – E-commerce Website",
+    description: "A full-stack MERN e-commerce website with user authentication, product management, shopping cart, and secure online payments.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe API"],
+    link: "https://github.com/yourusername/cartCorner",
+    image: "/cartcorner.png"
+  },
+  {
+    title: "Think Board – To Do Application",
+    description: "A MERN-based to-do app for creating, updating, and managing personal task boards with an intuitive and responsive interface.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+    link: "https://github.com/yourusername/thinkboard",
+    image: "/thinkboard.png"
+  },
+  {
     title: "Autonomous Threat Detection in Luggage",
     description: "Classified luggage images as safe or containing threats (e.g., guns, knives) and segmented detected threat items using image processing techniques.",
     technologies: ["Python", "OpenCV", "Machine Learning"],
